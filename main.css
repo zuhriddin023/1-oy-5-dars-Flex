@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.containerr {
+    width: 800px;
+    margin: auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.list {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.link {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.logo {
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 500px;
+    
+}
+.cards {
+    display: flex;
+    padding: 20px;
+}
+.card {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 90%;
+    background-color: black;
+}
+.image:hover {
+  background-color: red;
+  transition: .5s;
+  cursor: pointer;  
+}
+.desc {
+    flex-direction: column;
+    display: flex;
+    row-gap: 30px;
+    width: 900px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+
+    padding: 20px;
+
+}
+.des {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imag {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+}
+.imag:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 100px 0 100px 0;
+}
+.footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+.footer:hover {
+    background-color: red;
+    cursor: pointer;
+    transition: .5s;
+
+}
